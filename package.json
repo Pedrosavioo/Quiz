@@ -1,0 +1,25 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx watch ./server/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.5",
+    "@types/ws": "^8.5.12",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}
